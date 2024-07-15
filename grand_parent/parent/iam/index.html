@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- section 1 -->
+		<section>
+			<h2>
+				Relative file path for
+				<code>iam.png</code>
+			</h2>
+			<img src="iam.PNG" alt="My Own Image" />
+		</section>
+		<hr />
+
+		<!-- section 2 -->
+		<section>
+			<h2>
+				Relative file path for
+				<code>child.png</code>
+			</h2>
+			<img src="./child/child.PNG" alt="My child's Image" />
+		</section>
+		<hr />
+
+		<!-- section 3 -->
+		<section>
+			<h2>
+				Relative file path for
+				<code>parents.png</code>
+			</h2>
+			<img src="../parents.PNG" alt="My Parent's Image" />
+		</section>
+		<hr />
+
+		<!-- section 4 -->
+		<section>
+			<h2>
+				Relative file path for
+				<code>grandparents.png</code>
+			</h2>
+			<img src="../../grandparents.PNG" alt="My grandparent's Image" />
+		</section>
+		<hr />
+
+		<!-- section 5 -->
+		<section>
+			<h2>
+				Absolute file path for
+				<code>grandparents.png</code>
+			</h2>
+			<img
+				src="D:\Coding\HTML\Test\grand_parent"
+				alt="My grandparent's Image"
+			/>
+		</section>
+		<hr />
+	</body>
+</html>
